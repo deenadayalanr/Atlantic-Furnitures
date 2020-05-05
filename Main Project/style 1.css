@@ -1,0 +1,230 @@
+.had {
+	color: red;
+	background-color: #ffffcc;
+}
+.background {
+	background-image: linear-gradient(to right, red, orange, yellow,red);  
+}
+.nast {
+	margin-top: 1.9%;
+	margin-left: 19%;
+	font-size: xx-large;
+	font-weight: 800;
+}
+
+.cart {
+	font-size:50px;
+	margin-left: 50%;
+}
+.user {
+	font-size: 45px;
+	margin-top:-18.5%;
+	margin-right: 12%;
+}
+.container-fluid video {
+	width: 100%;
+	height: auto;
+}
+.container video {
+	width: 100%;
+	height: auto;
+}
+ li a{
+ 	color: white;
+ 	text-decoration: none;
+  border-radius: 25%;
+
+}
+
+li a:hover{
+  background-color: red;
+}
+
+.inam {
+	text-align: center;
+	font-family: 'Stylish', sans-serif;	
+}
+.natash {
+	font-size: 50px;
+	margin-left: 39%;
+	font-family: 'Arvo', serif;
+}
+.in .natash1 img{
+	width:12%;
+	margin-left: 69%;	
+}
+.natash2 {
+	font-size: 50px;
+	margin-left: 45%;
+	font-family: 'Arvo', serif;
+}
+.natash3 {
+	font-size: 50px;
+	margin-left: 20%;
+	font-family: 'Arvo', serif;
+}
+
+.sh img:hover {
+	    box-shadow: 0px 6px 25px rgb(218, 224, 239);
+	    transition: all .3s linear;
+	        padding: 13px 20px 40px 20px;
+}
+.footer {
+	background-color: grey;
+}
+.ram {
+	text-align: center;
+}
+.foot {
+	font-size: 50px;
+	color: red;
+}
+.foot1 {
+	font-size: 50px;
+	color: green;
+}
+.foot2 {
+	font-size: 40px;
+	color: black;
+}
+.foot3 {
+	font-size: 50px;
+	color: blue;
+}
+.foot4 {
+	font-size: 50px;
+	color: red;
+}
+.foot5 {
+	font-size: 50px;
+	color: #1DA1F2;
+}
+.foot7 {
+	font-family: 'Bree Serif', serif;
+	color: black;
+}
+.foot6 {
+	font-size: 25px;
+	text-align: center;
+	font-family: 'Stylish', sans-serif;
+}
+.button1{
+	margin-left: 45%;
+	font-size: 20px;
+	background: black;
+	color: red;
+}
+.button1:hover {
+  background-color:white;
+  color: black;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.had {
+	color: red;
+	background-color: #ffffcc;
+}
+.background {
+	background-image: linear-gradient(to right, red, orange, yellow,red);  
+}
+.nast {
+	margin-top: 1.9%;
+	margin-left: 19%;
+	font-size: xx-large;
+	font-weight: 800;
+}
+
+.cart {
+	font-size:50px;
+	margin-left: 50%;
+}
+.user {
+	font-size: 45px;
+	margin-top:-18.5%;
+	margin-right: 12%;
+}
+.container-fluid video {
+	width: 100%;
+	height: auto;
+}
+
+ li a{
+ 	color: white;
+ 	text-decoration: none;
+  border-radius: 25%;
+
+}
+
+li a:hover{
+  background-color: red;
+}
+
+.inam {
+	text-align: center;
+	font-family: 'Stylish', sans-serif;	
+}
+.natash {
+	font-size: 50px;
+	margin-left: 39%;
+	font-family: 'Arvo', serif;
+}
+.in .natash1 img{
+	width:12%;
+	margin-left: 69%;	
+}
+.natash2 {
+	font-size: 50px;
+	margin-left: 45%;
+	font-family: 'Arvo', serif;
+}
+.natash3 {
+	font-size: 50px;
+	margin-left: 20%;
+	font-family: 'Arvo', serif;
+}
+
+.sh img:hover {
+	    box-shadow: 0px 6px 25px rgb(218, 224, 239);
+	    transition: all .3s linear;
+	        padding: 13px 20px 40px 20px;
+}
+.footer {
+	background-color: grey;
+}
+.ram {
+	text-align: center;
+}
+.foot {
+	font-size: 50px;
+	color: red;
+}
+.foot1 {
+	font-size: 50px;
+	color: green;
+}
+.foot2 {
+	font-size: 40px;
+	color: black;
+}
+.foot3 {
+	font-size: 50px;
+	color: blue;
+}
+.foot4 {
+	font-size: 50px;
+	color: red;
+}
+.foot5 {
+	font-size: 50px;
+	color: #1DA1F2;
+}
+.foot7 {
+	font-family: 'Bree Serif', serif;
+	color: black;
+}
+.foot6 {
+	font-size: 25px;
+	text-align: center;
+	font-family: 'Stylish', sans-serif;
+}

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Login</title>
+	<link rel="icon" href="image 8.jpg">
+	<link rel="stylesheet" type="text/css" href="style 2.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+	body {
+	background-image: url("login_bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:auto;
+	font-family: sans-serif;
+}
+.log {
+	margin-top: 160px;
+	margin-left: 36%;
+   
+}
+.log h1 {
+	color: red;
+    font-size: 50px;
+    margin-left: 6%;
+    background-color: none;
+}
+
+.net {
+	font-size: 40px;
+	color:yellow;
+}
+.text {
+	margin-left: 5%;
+	margin-top: 50px;
+
+}
+
+.text input{
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 20px;
+	color: white;
+	border-bottom: 2px solid #4caf50;
+	border-radius: 30px;
+	padding-left: 3%;
+
+}
+.button1{
+	margin-left: 12%;
+	font-size: 20px;
+	background: none;
+	color: red;
+	border-radius: 50px;
+}
+.button2 {
+	margin-left: 4%;
+	font-size: 20px;
+	background: none;
+	color: red;
+	border-radius: 50px;
+}
+.button3 {
+	margin-left: 12%;
+	font-size: 25px;
+	background: none;
+	border-radius: 9px;
+	color:black;
+	background-color: aquamarine;
+}
+.button1:hover {
+  background-color:white;
+  color: black;
+}
+.button2:hover {
+	 background-color: yellow;
+}
+.button3:hover {
+	background-color: white;
+}
+::placeholder {
+	color: grey;
+}
+.animation {
+	width: 12%;
+	height: 25px;
+	animation-name: login;
+	animation-duration: 35s;
+	animation-iteration-count: 1;
+	background-color:none;
+	text-align: center;
+	border-radius: 25px;
+	color: red;
+}
+@keyframes login {
+	0% {
+		background-color: none;
+		margin-top: 90%;
+		margin-left: 0%;
+	}
+	25% {
+		background-color:none;
+		margin-top: 90%;
+		margin-left: 90%;
+	}
+	50% {
+		background-color: none;
+		margin-left: 90%;
+		margin-top: 0%;
+	}
+	75% {
+		background-color: none;
+
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+	background-image: url("login_bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:auto;
+	font-family: sans-serif;
+}
+.log {
+	margin-top: 160px;
+	margin-left: 36%;
+   
+}
+.log h1 {
+	color: red;
+    font-size: 50px;
+    margin-left: 6%;
+    background-color: none;
+}
+
+.net {
+	font-size: 40px;
+	color:yellow;
+}
+.text {
+	margin-left: 5%;
+	margin-top: 50px;
+
+}
+
+.text input{
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 20px;
+	color: white;
+	border-bottom: 2px solid #4caf50;
+	border-radius: 30px;
+	padding-left: 3%;
+
+}
+.button1{
+	margin-left: 12%;
+	font-size: 20px;
+	background: none;
+	color: red;
+	border-radius: 50px;
+}
+.button2 {
+	margin-left: 4%;
+	font-size: 20px;
+	background: none;
+	color: red;
+	border-radius: 50px;
+}
+.button1:hover {
+  background-color:white;
+  color: black;
+}
+.button2:hover {
+	 background-color: yellow;
+}
+::placeholder {
+	color: grey;
+}
+.animation {
+	width: 12%;
+	height: 25px;
+	animation-name: login;
+	animation-duration: 15s;
+	animation-iteration-count: 1;
+	background-color:none;
+	text-align: center;
+	border-radius: 25px;
+	color: white;
+}
+@keyframes login {
+	0% {
+		background-color: none;
+		margin-top: 90%;
+		margin-left: 0%;
+	}
+	25% {
+		background-color:none;
+		margin-top: 90%;
+		margin-left: 90%;
+	}
+	50% {
+		background-color: none;
+		margin-left: 90%;
+		margin-top: 0%;
+	}
+	75% {
+		background-color: none;
+
+	}
+}
+
+}
+
+  </style>
+   </head>
+<body>
+<form>
+		<!-- <div class="animation">Atlantic Login</div> -->
+
+<div class="log">
+   <h1>Atlantic Login</h1>
+	<div class="text">
+		<div class="net">
+		<i class="fa fa-user-circle"></i>
+		<input type="email" placeholder="E-mail id" name="user" value="" required>
+		</div>
+		<br><br><br>
+		<div class="net">
+		<i class="fa fa-lock" aria-hidden="true"></i>
+		<input type="password" placeholder="Password" name="pass" value="" required>
+	</div>
+		<br><br><br>
+		</div>
+		<a href="main page.html"><input type="button" class="button1" value="Sign in"></a>
+	<a href="sign up 1.html"><input type="button" class="button2" name="button" value="Sign up"></a>
+		<br><br><br>
+</form>
+</body>
+</html>

@@ -1,0 +1,47 @@
+body {
+	background-image: url("100.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.add {
+    margin-top: 50px;
+	margin-left: 41%;
+	font-size: 35px;
+}
+.add h1 {
+	color: red;
+}
+.fan input {
+	font-size: 20px;
+	background: none;
+	border-radius: 15px;
+	padding-left: 2%;
+}
+.fan {
+	margin-left: 40%;
+	margin-top: 60px;
+
+}
+.button4 {
+	margin-left: 42%;
+	margin-top: 45px;
+	font-size: 20px;
+	color: red;
+	background-color: yellow;
+	border:none;
+	outline: none;
+}
+.button5 {
+	font-size: 20px;
+	margin-left: 2%;
+	color: yellow;
+	background-color: red;
+	border:none;
+	outline: none;
+}
+.button4:hover {
+	background-color: white;
+}
+.button5:hover {
+	background-color: black;
+}
